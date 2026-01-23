@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #Séance 3
 
 #Question 4
-with open("./data/resultats-elections-presidentielles-2022-1er-tour (1).csv","r") as f : df = pd.read_csv(f)
+with open("./data/resultats-elections-presidentielles-2022-1er-tour.csv","r") as f : df = pd.read_csv(f)
 
 #Question 5
 colonnes_quantitatives = df.select_dtypes(include=["int64", "float64"])
